@@ -6,3 +6,25 @@
     font-weight: bold;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+
+.footer, .push {
+    height: 50px;
+    padding: 12px;
+    background-color: gray;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;    
+    text-align: center;    
+    color: lightslategrey;
+    font-size: medium;
+}
