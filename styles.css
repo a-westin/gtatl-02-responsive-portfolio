@@ -12,8 +12,27 @@ body {
   margin: 0;
 }
 
+.header {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: lightseagreen;
+  font-weight: bold;
+  font-size: xx-large;
+}
+
+.card {
+  height: 420px;
+  margin: 77px;
+  margin-left: 10px;
+  align-content: left;
+}
+
+.profile-pic {
+  height: 150px;
+  width: 150px;
+}
+
 .wrapper {
-  min-height: 100%;
+  max-height: 100%;
   margin-bottom: -50px;
 }
 
@@ -29,4 +48,5 @@ body {
   text-align: center;
   color: lightgray;
   font-size: medium;
+  border-top: 5px solid lightseagreen;
 }
